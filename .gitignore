@@ -1,0 +1,30 @@
+# Ignore vendor dependencies (assuming you're using Composer)
+/vendor/
+
+# Ignore any logs or temporary files
+/log/
+/tmp/
+
+# Ignore environment-specific configuration files
+/config/*.env
+
+# Ignore user-specific editor or IDE files
+.idea/
+.vscode/
+
+# Ignore any compiled or generated files
+*.log
+*.phpc
+*.phpt
+*.swp
+*.swo
+*.sqlite
+
+# Ignore sensitive or secret files
+.env
+
+# Ignore the composer.lock file if you're using Composer
+composer.lock
+
+# Ignore the .htaccess file if you have sensitive or server-specific rules
+public/.htaccess
